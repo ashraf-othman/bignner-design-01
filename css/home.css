@@ -1,0 +1,42 @@
+
+/* Home  */
+.home {
+    background-image: url(../img/background/background1.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.home .home-content .home-title {
+    color:var(--whiteColor);
+    font-size: 3rem;
+    font-family: sans-serif;
+    margin-bottom: 10px;
+}
+.home .home-content .home-lead {
+    color: var(--whiteColor);
+    line-height: 1.6;
+    width: 80%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+.home .home-content .btn {
+    border-radius: 5px;
+    width: 180px;
+    padding: 15px 20px;
+    font-size: 20px;
+    border: 1px solid #CCC;
+    cursor: pointer;
+}
+.home .home-content .btn.btn-start {
+    background-color: var(--whiteColor);
+    margin-right: 10px;
+    color: var(--mainColor);
+}
+.home .home-content .btn.btn-learn {
+    background-color: var(--mainColor);
+    color: var(--whiteColor);
+}
+/* ./ Home  */
