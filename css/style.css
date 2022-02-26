@@ -597,4 +597,13 @@ footer {
     line-height: 80px;
     border-radius: 5px;
 }
+.copyrights {
+    text-transform: capitalize;
+    font-size: large;
+    color: var(--mainColor);
+    font-style: italic;
+}
+.copyrights span {
+    color: var(--whiteColor);
+}
 /* ./ footer */
